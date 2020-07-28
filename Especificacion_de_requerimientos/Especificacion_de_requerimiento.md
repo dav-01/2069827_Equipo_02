@@ -144,7 +144,7 @@ Para el completo funcionamiento de la plataforma tiene estas depedencias:
 
 A continuación, se detallan los requisitos funcionales que el sistema deberá implementar.
 
-2. Modulo de visitas
+1. Modulo de visitas
 - En este modulo los usuarios podran ingresar a la pagina a ver los productos sin necesidad de haber creado una cuenta.
 
 2. Modulo de registro
