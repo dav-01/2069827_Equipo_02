@@ -1,26 +1,26 @@
-#Definición del Proyecto#
+## **Definición del Proyecto** 
 
 Autoría por:
 
-David José cabrera vuelvas
+David José cabrera Buelvas
 Leidy quiroga García
 Emanuel armando Álvarez
 Brayan Andrés Torres Amarras
 Sebastián Escandón Ojeda
-José Miguel diagramados Rondón
+José Miguel diazgranados Rondón
 
-              #Historial de Revisiones#
+## **Historial de Revisiones**
 
 Fecha                Versión       Descripción/cambio
 
 17/07/2020            1.0           primer documento
 
 
-#Objetivo#
+## **Objetivo**
 
 El objetivo de este proyecto es elaborar la construcción de un software de gestión de ventas, eh inventariado de dichas ventas,   para proporcionar una oportunidad de expansión y renovación a el micro  de “variedades de mary” , este software beneficiara a este micro negocio en su área de productividad laboral , se espera que esto pueda dar un incremento lucrativo considerable al almacén de  “variedades de mary”
 
-#Aspectos a documentar#
+## **Aspectos a documentar**
 
 1.	Ubicación contextual del proyecto.
 El proyecto de formación que se está llevando a cabo esta dirigido al almacén conocido como “variedades de  mary” que está localizado en la Carrera 10 #8D-66 de el corregimiento de puerto Giraldo en la región atlántico
