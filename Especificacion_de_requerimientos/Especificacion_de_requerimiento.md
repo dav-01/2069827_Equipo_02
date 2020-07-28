@@ -36,7 +36,7 @@ El proyecto tendrá la duración de año y medio y al terminar el proyecto solo 
 4. CMS-siglas de Content Management System.
 5. RPA-Automatización Robótica de Procesos.
 
-##**DEFINICIONES**
+## **DEFINICIONES**
 
 **Optimizacion:**
 
@@ -132,7 +132,7 @@ El siguiente lo constituyen los clientes igual de importantes que los menciondos
 - El horario de atencion al cliente sera de 6:00 am hastas las 10:00 pm.
 - El vendedor solo podra entrar al software estando el punto de trabajo.
 
-## ATENCION Y DEPENDENCIAS 
+## **ATENCION Y DEPENDENCIAS**
 
 Para el completo funcionamiento de la plataforma tiene estas depedencias:
 
@@ -144,24 +144,30 @@ Para el completo funcionamiento de la plataforma tiene estas depedencias:
 
 A continuación, se detallan los requisitos funcionales que el sistema deberá implementar.
 
-1. Inicio de sesion
+2. Modulo de visitas
+- En este modulo los usuarios podran ingresar a la pagina a ver los productos sin necesidad de haber creado una cuenta.
+
+2. Modulo de registro
+- Opcion de registro para los usuarios de la plataforma y asi puedan tener su cuenta para iniciar sesion.
+
+3. Inicio de sesion
 - se realizara un inicio de sesion para que solo puedan ingresar las personas registradas en el sistema.
 
-2. Ingreso de productos
+4. Ingreso de productos
 - registrar el ingreso de los productos que llegan por parte del proveedor al almacen en la base de datos.
 
-3. Registro de ventas
+5. Registro de ventas
 - resgistrar las ventas realizadas por los vendedores en la base de datos.
 
-4. Gestion de informacion
+6. Gestion de informacion
 - permitir la modificacion de informacion en la base de datos.
 
-5. Modulo de reporte
+7. Modulo de reporte
 - realizar reporte de ventas
 - reportes de clientes
 - reportes de pedidos realizados al proveedor
 
-6. Facturacion
+8. Facturacion
 - la plataforma debe generar una factura para ser entregada al cliente o bien podria ser electronica y se le mandaria al cliente al correo.
 
 ## **REQUERIMIENTOS NO FUNCIONALES**
@@ -184,7 +190,7 @@ pasos.
 La interfaz deberá ofrecer funcionalidades para realizar tareas
 repetitivas en forma automática.
 
-##**Ejemplo:**
+## **Ejemplo:**
 
 **Inicio de sesión automática en un sitio web:** 
 
