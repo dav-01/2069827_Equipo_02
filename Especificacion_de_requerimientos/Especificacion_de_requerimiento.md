@@ -62,6 +62,14 @@ El sector servicios o sector terciario es el sector económico que engloba las a
 
 La palabra boutique se refiere, por lo general, a una tienda exclusiva, de ropa o accesorios de moda. ... Así, hoy en día el término boutique también hace referencia a un establecimiento o negocio que comercializa o se especializa en productos o servicios muy selectos o exclusivos.
 
+**Base de datos:**
+
+Programa capaz de almacenar gran cantidad de datos, relacionados y estructurados, que pueden ser consultados rápidamente de acuerdo con las características selectivas que se deseen
+
+**Content Management System:**
+
+Un sistema de gestión de contenidos o CMS es un programa informático que permite crear un entorno de trabajo para la creación y administración de contenidos, principalmente en páginas web, por parte de los administradores, editores, usuarios y demas.
+
 A lo largo de todo el documento, se utilizan los términos Requisito y Requerimiento en forma distinta.
 
 ## **DEFINICION**
@@ -86,10 +94,10 @@ Este software sera de facil acceso, sera capaz de generar simplicidad del contro
 
 Logrando una multifuncionalidad y accesibilidad de acuerdo a las funciones del usuario. Se espera que el sistema funcione en un ambiente web, por lo que deberá ser capaz de funcionar en cualquier plataforma con un navegador web instalado, siempre y cuando disponga de conexión al servidor en que va a estar corriendo la aplicación, ya sea por Internet o alguna red privada. 
 
-Se espera que el software cuente con un solo formato, ya que la información que se muestra va cambiando a medida que se va ingresando a cada uno de las opciones.
+la información que se muestra va cambiando a medida que se va ingresando a cada uno de las opciones.
 Esta interfaz cumple con los requisitos de interfaz amigable con el usuario y facil de usar.
 
-Al ser una aplicacion web se espera que el consumo de recursos sea muy poco
+Al ser una aplicacion web se espera que el consumo de recursos sea muy poco, por lo que se enfocaría basicamente en lo que gasta el navegador que es alrededor de 64 MB.
 
 El sistema WEB, permitirá su utilización de forma descentralizada, además trabajará de manera independiente por lo tanto no interactuará con otros sistemas.
 
@@ -99,17 +107,23 @@ Lo que se espera de esta aplicacion es que sea mas usable y mas intuitiva para s
 
 El software debe cumplir con las siguientes funciones:
 
-1. un registro de asignacion de venta.
+1. Registrar usuario.
 
-2. Generar el registro de compras y ventas.
+2. Acesso a un panel de navegacion.
 
-3. Mejora en la ejecucion de la facturación.
+3. Ingreso de productos 
+
+4. registro de asignacion de venta.
+
+5. realizar venta
+
+6. Generar el registro de compras y ventas.
+
+7. Mejora en la ejecucion de la facturación.
  
-4. Mostrar el estado de la infomacion de las ventas.
+8. Generar reportes.
 
-5. Generar y recibir reportes.
-
-6. Control de la informacion:
+9. Control de la informacion:
 	-ajustar los procesos internos de ventas.
 	-visualizar el recorrido.
 	-seguimiento de contactos.
@@ -117,13 +131,14 @@ El software debe cumplir con las siguientes funciones:
 
 ## **CARACTERISTICAS DE USUARIO**
 
-El sistema cuenta con tres tipos de usuario final, los cuales cada uno de ellos puede representar un rol, que incide forma directa o indirecta con la tienda ya sea como: Empleado, (cuerpo administrativo), cliente.
+El sistema cuenta con tres tipos de usuario final, los cuales cada uno de ellos puede representar un rol, que incide forma directa o indirecta con la tienda ya sea como: Empleado, Cuerpo administrativo, cliente.
 
-Empleado(cuerpo administrativo)Este rol de usuario en primera instancia es quien mas interactua con el sistema y tambien el cual tiene mas accesibilidad y ser el usuario a disposicion de administrar la informacion de los usuarios y clientes de acuerdo a los requerimientos u opciones definidas referente a la informacion de las ventas.
+Empleado(cuerpo administrativo): Este rol de usuario en primera instancia es quien mas interactua con el sistema y tambien el cual tiene mas accesibilidad y ser el usuario a disposicion de administrar la informacion de los usuarios y clientes de acuerdo a los requerimientos u opciones definidas referente a la informacion de las ventas.
 
-Empleado(vendedor) como el anterior este rol es igual de principal solo que con alguna limitaciones en la accesibilidad a la informacion suministrada en el sistema unicamente es direccionado a encargarse atraves de la interfaz vendedor de generar un registro de asignacion de venta, y unicamente trenda acceso a su informacion personal e sus datos a cerca de sus ventas asignadas.
+Empleado(vendedor): Como el anterior este rol es igual de principal solo que con alguna limitaciones en la accesibilidad a la informacion suministrada en el sistema unicamente es direccionado a encargarse atraves de la interfaz vendedor de generar un registro de asignacion de venta, y unicamente trenda acceso a su informacion personal e sus datos a cerca de sus ventas asignadas.
 
-El siguiente lo constituyen los clientes igual de importantes que los menciondos quienes solo tendran acceso a su informacion personal en su perfil y ala hora de la facturacion tambien a la informacion refernte a los productos que se encuentran en venta dentro de la interfaz usuario.
+El siguiente lo constituyen los clientes igual de importantes que los ya menciondos, quienes solo tendran acceso al modulo de venta donde puede hacer consulstas o revisar detalles referentes a los productos y a su informacion personal alojada en su perfil, y a la hora de la facturacion tambien a la informacion referente a su compra del producto que se encuentran en venta dentro dentro del modulo de clientes.
+
 
 ## **RESTRICCIONES**
 
@@ -172,13 +187,8 @@ A continuación, se detallan los requisitos funcionales que el sistema deberá i
 
 ## **REQUERIMIENTOS NO FUNCIONALES**
 
-**01-Interfaz del sistema**
 
-La interfaz del sistema debe estar implementada como una aplicación web,
-a excepción de la extensión para Smart Devices. Se pretende además la
-existencia de un portal de requisitos.
-
-**02 - Usabilidad**
+**Usabilidad**
 
 El sistema deberá proveer una interfaz amigable al usuario, que sea fácil
 de aprender y de usar. 
@@ -189,6 +199,34 @@ pasos.
 
 La interfaz deberá ofrecer funcionalidades para realizar tareas
 repetitivas en forma automática.
+
+**Mantenibilidad**
+
+El sistema cuenta con características parametrizables lo que permitirá futuros
+mantenimientos. Es decir cada tres meses se va a realizar un mantenimiento
+preventivo, encargado de hacerlo están los desarrolladores.
+
+Se realizara el mantenimiento dos veces sin ningún recargo económico, pasados
+estas dos revisiones tendrán costos adicionales.
+
+**Fiabilidad**
+
+Es uno de los factores que dará confianza al cliente, para lo cual el sistema está
+controlando todo tipo de transacción y esta apto a responde todo tipo de
+incidente. 
+
+**Portabilidad**
+
+Este requerimiento asegura que el sistema será totalmente portable en cuanto se refiere a sistemas operativos en MacOS, Linux Windows, también así mismo este pueda ser utilizado a través de diferentes navegadores como: Mozilla, Chrome, Microsoft Edge, Opera que pueda mantener esa portabilidad. 
+
+**Seguridad**
+
+La detección de vulnerabilidades y la seguridad informática es fundamental para mantener siempre segura e intacta la información privada de la empresa y de los usuarios asi como cualquier actividad inorganica dentro del sistema   , por ello, contar con este tipo de herramientas constituye.
+
+
+**Modulo de ayuda**
+Es necesaria como alternativa por si se requiere de alguna informacion en especifico inmediatamente el usuario podra acceder algun modulo de ayuda para asi mejorar la experiencia dentro del sistema.
+
 
 ## **Ejemplo:**
 
@@ -205,12 +243,16 @@ Al automatizar el inicio de sesión y el proceso de navegación de un sitio web 
 Se deberá utilizar Genexus Access Manager para toda la gestión de usuarios
 y control de acceso; autenticación y autorización.
 
-**Ayuda en línea**
-Es necesaria como alternativa por si se requiere de alguna informacion en especifico inmediatamente el usuario podra acceder a la ayuda en linea.
 
-**El sistema web debe ser seguro y garantizado**
+**Interfaz del sistema**
+
+La interfaz del sistema debe estar implementada como una aplicación web,
+a excepción de la extensión para Smart Devices. Se pretende además la
+existencia de un portal de requisitos.
+
 
 **Requerimientos de Interfaz externa**
+
 
 -Interfaz de inicio de sesion(principal).
 
