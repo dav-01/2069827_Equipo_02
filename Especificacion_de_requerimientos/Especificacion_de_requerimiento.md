@@ -22,8 +22,8 @@ El alcance de este proyecto será el de crear una plataforma web para el comerci
 
 1. Tendrá una base de datos con el inventario de los artículos.
 2. Tendrá un punto de venta en línea.
-3. Habrá un mejor contacto con el cliente comunicación de cliente.
-4. Tendrá una sintaxis amigable y fácil de usar.
+3. Habrá un mejor contacto con el cliente.
+4. Tendrá una interfaz amigable y fácil de usar.
 5. La plataforma tendrá un módulo de registro de actividades y de registro de usuarios.
 
 El proyecto tendrá la duración de año y medio y al terminar el proyecto solo se hará entrega del software ya funcionando al almacén Variedades Mary.
@@ -142,10 +142,11 @@ El siguiente lo constituyen los clientes igual de importantes que los ya mencion
 
 ## **RESTRICCIONES**
 
-- Debe haber conexion a intenet.
-- uso de sesiones para limitar el acceso a usuarios no autorizados.
-- El horario de atencion al cliente sera de 6:00 am hastas las 10:00 pm.
-- El vendedor solo podra entrar al software estando el punto de trabajo.
+- Debe haber conexión a internet.
+- Uso de sesiones para limitar el acceso a usuarios no autorizados.
+- El horario de atención al cliente será de 6:00 am hasta las 10:00 pm.
+- El vendedor solo podrá entrar al software estando el punto de trabajo.
+- La sesión se cerrará luego de 5 minutos de inactividad.
 
 ## **ATENCION Y DEPENDENCIAS**
 
@@ -159,31 +160,26 @@ Para el completo funcionamiento de la plataforma tiene estas depedencias:
 
 A continuación, se detallan los requisitos funcionales que el sistema deberá implementar.
 
-1. Modulo de visitas
-- En este modulo los usuarios podran ingresar a la pagina a ver los productos sin necesidad de haber creado una cuenta.
+001. Módulo de Ventas
+- En este módulo los usuarios podrán ingresar a la página a ver los productos e ir seleccionando los que necesitan
 
-2. Modulo de registro
-- Opcion de registro para los usuarios de la plataforma y asi puedan tener su cuenta para iniciar sesion.
+002. Módulo de Pago
+- En este módulo los usuarios podrán realizar el pago del producto anteriormente pedido
 
-3. Inicio de sesion
-- se realizara un inicio de sesion para que solo puedan ingresar las personas registradas en el sistema.
+003. Inicio de sesión
+- Inicio de sesión para que solo puedan ingresar las personas registradas en el sistema.
 
-4. Ingreso de productos
-- registrar el ingreso de los productos que llegan por parte del proveedor al almacen en la base de datos.
+004. Módulo de registro
+- Opción de registro para los usuarios de la plataforma
 
-5. Registro de ventas
-- resgistrar las ventas realizadas por los vendedores en la base de datos.
+005. Ingreso de productos
+- Registrar el ingreso de los productos que llegan por parte del proveedor al almacén
 
-6. Gestion de informacion
-- permitir la modificacion de informacion en la base de datos.
+006. Módulo de reporte
+- Este módulo me permite realizar reportes de la diferente información que habrá en la plataforma web
 
-7. Modulo de reporte
-- realizar reporte de ventas
-- reportes de clientes
-- reportes de pedidos realizados al proveedor
-
-8. Facturacion
-- la plataforma debe generar una factura para ser entregada al cliente o bien podria ser electronica y se le mandaria al cliente al correo.
+007. Facturacion
+- la plataforma debe generar una factura para ser entregada al cliente o bien podría ser electrónica y se le mandaría al correo del cliente.
 
 ## **REQUERIMIENTOS NO FUNCIONALES**
 
