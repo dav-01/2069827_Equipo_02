@@ -4,11 +4,11 @@
 
 ## **APRENDICES: DAVID CABRERA, JOSE DIAZGRANADOS, LEIDY QUIROGA, SEBASTIAN ESCANDON, EMMANUEL ALVAREZ, BRAYAN TORRES**
 
-## **INTRODUCCION** 
+## **INTRODUCCION**
 
 El presente documento tiene como objetivo brindar una descripción detallada de los requerimientos para el sistema de gestión de requisitos de un punto de ventas y manejo de datos de la información que se le desarrollara a la empresa Variedades Mary, obtenidos en el análisis realizado por parte del equipo de aprendices en conjunto con el cliente.
 
-## **PROPOSITO** 
+## **PROPOSITO**
 
 El propósito de este documento es describir de manera formal el comportamiento del sistema para la implementación de una plataforma WEB que se pretende construir. que tendra capacidad para gestionar, realizar ventas y almacenar la informacion que se trabajara dentro la plataforma realizada para el almacen Variedades Mary. A continuación, Se detallan los requerimientos funcionales y no funcionales, las restricciones y atributos de calidad que deberá cumplir el sistema. El documento está dirigido a:
 
@@ -31,7 +31,7 @@ El proyecto tendrá la duración de año y medio y al terminar el proyecto solo 
 ## **DEFINICION, ACRONIMOS, ABREVIATURAS**
 
 1. ADSD-Analisis De Software de Documentacion .
-2. BD-Base de datos. 
+2. BD-Base de datos.
 3. RIP-Registro de Informacion General.
 4. CMS-siglas de Content Management System.
 5. RPA-Automatización Robótica de Procesos.
@@ -40,7 +40,7 @@ El proyecto tendrá la duración de año y medio y al terminar el proyecto solo 
 
 **Optimizacion:**
 
-Optimizar quiere decir buscar mejores resultados, más eficacia o mayor eficiencia en el desempeño de alguna tarea. De allí que términos sinónimos sean mejorar, optimar o perfeccionar. 
+Optimizar quiere decir buscar mejores resultados, más eficacia o mayor eficiencia en el desempeño de alguna tarea. De allí que términos sinónimos sean mejorar, optimar o perfeccionar.
 
 **Mercantilizar:**
 
@@ -76,11 +76,11 @@ A lo largo de todo el documento, se utilizan los términos Requisito y Requerimi
 
 En esta definición se planea exponer los datos recopilados por nosotros como grupo de aprendices S.E.N.A hemos recopilado desde el día sábado 9 de mayo del año 2020.
 
-Este proyecto está diseñado para el beneficio y aporte al sector economico en el area textil. La boutique es una de las mas importantes y uno de los grandes establecimientos en el sector donde se encuentra. el cual se caracteriza en la venta de artículos de moda y lujo como prendas de vestir y joyería. reconocido por su gran variedad y calidad de sus productos, ademas de su enorme fiabilidad a la hora de mercantilizar. queriendo lograr una extension en el area que desempeña llevando esto hasta el domicilio del cliente, a lo que ahora se le conoce como tienda virtual. 
+Este proyecto está diseñado para el beneficio y aporte al sector economico en el area textil. La boutique es una de las mas importantes y uno de los grandes establecimientos en el sector donde se encuentra. el cual se caracteriza en la venta de artículos de moda y lujo como prendas de vestir y joyería. reconocido por su gran variedad y calidad de sus productos, ademas de su enorme fiabilidad a la hora de mercantilizar. queriendo lograr una extension en el area que desempeña llevando esto hasta el domicilio del cliente, a lo que ahora se le conoce como tienda virtual.
 
-Este proyecto está siendo elaborado con el fin de sistematizar y optimizar la cantidad de informacion que es suministrada a diario. Referente a ventas, compras, stock, observaciones y demas. 
+Este proyecto está siendo elaborado con el fin de sistematizar y optimizar la cantidad de informacion que es suministrada a diario. Referente a ventas, compras, stock, observaciones y demas.
 
-la razón por la que hicimos enfasis en la parte de la obtencion de la informacion y su procesamiento, fue gracias al  estudio y analisis sobre esta. Que puso en descubierto la perdida de informacion, la falta de optimizacion, esfuerzo mental por parte de los empleados encargados y sobre todo la falta de regularizacion y su obtencion de informacion. 
+la razón por la que hicimos enfasis en la parte de la obtencion de la informacion y su procesamiento, fue gracias al  estudio y analisis sobre esta. Que puso en descubierto la perdida de informacion, la falta de optimizacion, esfuerzo mental por parte de los empleados encargados y sobre todo la falta de regularizacion y su obtencion de informacion.
 
 La tienda se encuentra sin automatización para este medio teniendo que recurrir a catalogar la información artesanalmente, esto ha llevado a un gran retroceso para la empresa bajando su productividad. ya hemos sido autorizados por la propietaria del emprendimiento (Maria buelvas) para ayudar a la creación del prototipo del software web para el almacenamiento de información, el cual para habilitar y entregarlo totalmente restan 14 meses de aprendizaje.
 
@@ -92,7 +92,7 @@ Este documento esta conformado por secciones que son el proposito, el alcance, y
 
 Este software sera de facil acceso, sera capaz de generar simplicidad del control y obtencion de la informacion la cual suministrada por los usuarios.
 
-Logrando una multifuncionalidad y accesibilidad de acuerdo a las funciones del usuario. Se espera que el sistema funcione en un ambiente web, por lo que deberá ser capaz de funcionar en cualquier plataforma con un navegador web instalado, siempre y cuando disponga de conexión al servidor en que va a estar corriendo la aplicación, ya sea por Internet o alguna red privada. 
+Logrando una multifuncionalidad y accesibilidad de acuerdo a las funciones del usuario. Se espera que el sistema funcione en un ambiente web, por lo que deberá ser capaz de funcionar en cualquier plataforma con un navegador web instalado, siempre y cuando disponga de conexión al servidor en que va a estar corriendo la aplicación, ya sea por Internet o alguna red privada.
 
 la información que se muestra va cambiando a medida que se va ingresando a cada uno de las opciones.
 Esta interfaz cumple con los requisitos de interfaz amigable con el usuario y facil de usar.
@@ -111,7 +111,7 @@ El software debe cumplir con las siguientes funciones:
 
 2. Acesso a un panel de navegacion.
 
-3. Ingreso de productos 
+3. Ingreso de productos
 
 4. registro de asignacion de venta.
 
@@ -120,7 +120,7 @@ El software debe cumplir con las siguientes funciones:
 6. Generar el registro de compras y ventas.
 
 7. Mejora en la ejecucion de la facturación.
- 
+
 8. Generar reportes.
 
 9. Control de la informacion:
@@ -190,11 +190,11 @@ A continuación, se detallan los requisitos funcionales que el sistema deberá i
 **Usabilidad**
 
 El sistema deberá proveer una interfaz amigable al usuario, que sea fácil
-de aprender y de usar. 
+de aprender y de usar.
 
 Se pretende que la navegación entre las distintas
 funcionalidades del sistema sea realizada en forma sencilla y en pocos
-pasos. 
+pasos.
 
 La interfaz deberá ofrecer funcionalidades para realizar tareas
 repetitivas en forma automática.
@@ -212,11 +212,11 @@ estas dos revisiones tendrán costos adicionales.
 
 Es uno de los factores que dará confianza al cliente, para lo cual el sistema está
 controlando todo tipo de transacción y esta apto a responde todo tipo de
-incidente. 
+incidente.
 
 **Portabilidad**
 
-Este requerimiento asegura que el sistema será totalmente portable en cuanto se refiere a sistemas operativos en MacOS, Linux Windows, también así mismo este pueda ser utilizado a través de diferentes navegadores como: Mozilla, Chrome, Microsoft Edge, Opera que pueda mantener esa portabilidad. 
+Este requerimiento asegura que el sistema será totalmente portable en cuanto se refiere a sistemas operativos en MacOS, Linux Windows, también así mismo este pueda ser utilizado a través de diferentes navegadores como: Mozilla, Chrome, Microsoft Edge, Opera que pueda mantener esa portabilidad.
 
 **Seguridad**
 
@@ -229,7 +229,7 @@ Es necesaria como alternativa por si se requiere de alguna informacion en especi
 
 ## **Ejemplo:**
 
-**Inicio de sesión automática en un sitio web:** 
+**Inicio de sesión automática en un sitio web:**
 
 Al automatizar el inicio de sesión y el proceso de navegación de un sitio web se pueden ahorrar muchas horas de procesamiento manual.
 
