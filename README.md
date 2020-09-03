@@ -9,4 +9,4 @@ Plantilla para desarrollo de actividades
 [Acta 3](Actas_del_proyecto/Acta3.md)
 [Acta 4](Actas_del_proyecto/Acta4.md)
 
-[Docs](docs/index.html)
+[Enlace de la pagina](https://dav-01.github.io/2069827_Equipo_02/)
