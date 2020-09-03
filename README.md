@@ -9,3 +9,4 @@ Plantilla para desarrollo de actividades
 [Acta 3](Actas_del_proyecto/Acta3.md)
 [Acta 4](Actas_del_proyecto/Acta4.md)
 
+[Docs](docs/index.html)
